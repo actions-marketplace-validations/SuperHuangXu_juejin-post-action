@@ -34,7 +34,7 @@ async function run() {
   %s`,
       itemMd
     )
-    core.setOutput('md', md)
+    core.exportVariable('juejin_post_md', md)
   } catch (error) {
     core.setFailed(error.message)
   }
