@@ -7,7 +7,8 @@
     "lint": "eslint .",
     "prepare": "ncc build index.js -o dist --source-map --license licenses.txt",
     "test": "jest",
-    "all": "npm run lint && npm run prepare && npm run test"
+    "all": "npm run lint && npm run prepare && npm run test",
+    "release": "git tag -fa v1 -m \"Update v1 tag\" && git push origin v1 --force"
   },
   "repository": {
     "type": "git",
