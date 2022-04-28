@@ -11,4 +11,4 @@ with:
   user_id: ''
 ```
 
-2. 环境变量会增加 `juejin_post_md`
+2. 环境变量会增加 `juejin_post_md` 以提供给后面的步骤使用
